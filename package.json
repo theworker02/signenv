@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/signenv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sign structured JSON env payloads without a heavyweight toolkit.",
+  "bin": {
+    "signenv": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/signenv.git"
+  },
+  "homepage": "https://theworker02.github.io/signenv/",
+  "keywords": [
+    "sign",
+    "env",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
